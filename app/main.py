@@ -11,7 +11,8 @@ app = FastAPI(title="AskMyPDF AI")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://ask-my-pdf-frontend-lgdv1jvmz-aarya-a26d.vercel.app"
+                   ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
